@@ -11,8 +11,6 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
  	<div class="container">
   		<div class="navbar-header">
-  			<button type="button" class="navbar-toggle-collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-  			</button>
   			<a class="navbar-brand" href="#">Katharina Fuetterer</a>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">
@@ -35,7 +33,7 @@
 
 		<h1 id="Title">About Me</h1>
 
-		<img id="ProfilePicture" src="images/KatharinaFuetterer_profile.jpg" alt="Katharina Profile Picture">
+		<img id="ProfilePicture" src="images/KatharinaFuetterer_profile.jpg" alt="Katharina Profile Picture" width=300px height=300px>
 
 		<p id="Story">My name is Katharina Fuetterer and I am a graduate from Savannah College of Art and Design in Industrial Design. I have a passion for design and problem solving. Therefore I am currently pursuing further education through Georgia Tech to become a full-stack web developer so I can use both my design expertise and my problem solving strategies.</p>
 
@@ -45,18 +43,74 @@
 
 		<h2 id="Connections">Connect with Me</h2>
 
-		<img id="ConnectionImagesOne" src="assets/images/GitHub_icon.png">
+		<img id="ConnectionImagesOne" src="images/GitHub_icon.png" width=60px height=60px>
 
-		<img id="ConnectionImagesTwo" src="assets/images/LinkedIn_icon.png">
+		<img id="ConnectionImagesTwo" src="images/LinkedIn_icon.png" width=60px height=60px>
 
-		<img id="ConnectionImagesThree" src="assets/images/StackOverflow_icon.png">
+		<img id="ConnectionImagesThree" src="images/StackOverflow_icon.png" width=60px height=60px>
 
 	</div>
 
   	<footer class="footer" background="images/binding_dark/binding_dark/binding_dark.png">
-  		<div class="container">
+  		<div class="copyright">
   		Copyright 2017 Katharina Fuetterer
 		</div>
 	</footer>
 </body>
+
+<style>
+
+	@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+	}
+
+	h1, h2 {
+		font-family: 'Georgia', Times, Times New Roman;
+		font-size: 25px;
+	}
+	#myName {
+		font-size: 26px;
+	}
+	h3, p {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 16px;
+	}
+
+	.container {
+		padding: 20px;
+	}
+
+	.navbar-header {
+		background-color: #4aaaa5;
+		padding: 10px 30px 30px 10px;
+	}
+
+	.navbar-brand {
+		text-align: center;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.Links {
+		background-color: white;
+	}
+
+	.AboutMe {
+		background-color: white;
+	}
+
+	p {
+		float: left;
+	}
+
+	#ProfilePicture {
+		float: left;
+		margin: 30px;
+	}
+</style>
+
 </html>
