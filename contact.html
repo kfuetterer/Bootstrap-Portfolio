@@ -19,10 +19,10 @@
 				<li>
 					<a href="index.html">About</a>
 				</li>
-				<li class="active">
+				<li>
 					<a href="portfolio.html">Portfolio</a>
 				</li>
-				<li>
+				<li class="active">
 					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
@@ -32,52 +32,52 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-7 col-lg-7 col-sm-12 col-xs-12" style="background-color: white border-color: #444444 border-style: solid border-width: 5px">
+			<div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="page-header text-center">
-							<h1 id="Title" style="color: #555555">Contact Form</h1>
+							<h2 id="Title" style="color: #555555">Contact Form</h2>
 						</div>
 					</div>
 				</div>
-					<div class="row">
-						<div class="formbox">
+				<div class="row">
+					<div class="formbox">
+						<div class="form-group">
 
-							<div class="form-group">
-
-								<label>Name:</label>
-								<div class="row">
-									<div class="col-md-12">
-										<textarea class="form-control" rows="1">John Smith</textarea>
-									</div>
-								</div>
-								<br>
-								<label>Email:</label>
-								<div class="row">
-									<div class="col-md-12">
-										<textarea class="form-control" rows="1">example@gmail.com</textarea>
-									</div>
-								</div>
-								<br>
-								<label for="formmessage">Message:</label>
-
-								<div class="row">
-									<div class="col-md-12">
-										<textarea class="form-control" rows="8"></textarea>
-									</div>
+							<label style="color: #555555">Name:</label>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea class="form-control" rows="1" style="color: #bbbbbb">John Smith</textarea>
 								</div>
 							</div>
+							<br>
+							<label style="color: #555555">Email:</label>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea class="form-control" rows="1" style="color: #bbbbbb">example@gmail.com</textarea>
+								</div>
+							</div>
+							<br>
+							<label for="formmessage" style="color: #555555">Message:</label>
 
-							<button type="button" class="btn btn-success">Submit</button>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea class="form-control" rows="8"></textarea>
+								</div>
+							</div>
 						</div>
+						<button id="buttonSubmit" type="button" class="btn btn-success">Submit</button>
 					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+			</div>
 
-
-				<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-xs-12" style="background-color: white">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<div class="row">
 					<div class="col-md-12 col-xs-12 text-center">
 						<div class="page-header">
-							<h2 id="Connections">Connect with Me</h2>
+							<h2 id="Connections" style="color: #555555">Connect with Me</h2>
 						</div>
 					</div>
 				<div class="row">
@@ -119,10 +119,12 @@
 	h3, p {
 		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	}
-	
+
+
 	#copyright {
 		font-size: 14px;
 		color: #444444;
+		font-family: 'Georgia', Times, Times New Roman;
 	}
 	#Kat{
 		color: white;
@@ -140,6 +142,9 @@
 
 	#ConnectionImagesThree{
 		margin: 0 20px 20px -20px;
+	}
+	.page-header {
+		border-bottom-color: white;
 	}
 </style>
 
